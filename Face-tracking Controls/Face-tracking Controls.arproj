@@ -3,7 +3,7 @@
   "name": "Effect",
   "identifier": "document:4-3d66f87b-da5e-47e3-ab6d-818cb6247d3b",
   "id": "23d66f87bda5e47e3ab6d818cb6247d3b",
-  "revision": "5656637f7997b1012042c78e770f161c6266a0",
+  "revision": "4039f37e4cebb76c4f019374e0c9f8df8eb2",
   "version": {
     "dev": 0,
     "patch": 0,
@@ -40,13 +40,16 @@
       "identifier": "textures:10-3d66f87b-da5e-47e3-ab6d-818cb6247d3b",
       "children": [
         {
-          "sectionFileLocation": "textures/icon_1.texture"
+          "sectionFileLocation": "textures/icon4.texture"
         },
         {
-          "sectionFileLocation": "textures/icon_2.texture"
+          "sectionFileLocation": "textures/icon1.texture"
         },
         {
-          "sectionFileLocation": "textures/icon_3.texture"
+          "sectionFileLocation": "textures/icon2.texture"
+        },
+        {
+          "sectionFileLocation": "textures/icon3.texture"
         }
       ]
     },
@@ -109,52 +112,69 @@
       "children": [
         {
           "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:563012-7f7997b1-0120-42c7-8e77-0f161c6266a0",
+          "identifier": "textureExportConfig:2289-b4447a0c-6ce5-44df-89db-ad94d1df9764",
           "method": "fastest"
         },
         {
           "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:563014-7f7997b1-0120-42c7-8e77-0f161c6266a0",
+          "identifier": "textureExportConfig:2291-b4447a0c-6ce5-44df-89db-ad94d1df9764",
           "method": "fastest"
         },
         {
           "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:563016-7f7997b1-0120-42c7-8e77-0f161c6266a0",
+          "identifier": "textureExportConfig:2293-b4447a0c-6ce5-44df-89db-ad94d1df9764",
           "method": "fastest"
         },
         {
           "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:563370-7f7997b1-0120-42c7-8e77-0f161c6266a0",
+          "identifier": "textureExportConfig:2295-b4447a0c-6ce5-44df-89db-ad94d1df9764",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:5245-b4447a0c-6ce5-44df-89db-ad94d1df9764",
           "method": "fastest",
           "targetFormat": 2
         },
         {
           "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:563372-7f7997b1-0120-42c7-8e77-0f161c6266a0",
+          "identifier": "textureExportConfig:5247-b4447a0c-6ce5-44df-89db-ad94d1df9764",
           "method": "fastest",
           "targetFormat": 2
         },
         {
           "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:563374-7f7997b1-0120-42c7-8e77-0f161c6266a0",
+          "identifier": "textureExportConfig:5249-b4447a0c-6ce5-44df-89db-ad94d1df9764",
           "method": "fastest",
           "targetFormat": 2
         },
         {
           "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:563734-7f7997b1-0120-42c7-8e77-0f161c6266a0",
+          "identifier": "textureExportConfig:5251-b4447a0c-6ce5-44df-89db-ad94d1df9764",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:5849-b4447a0c-6ce5-44df-89db-ad94d1df9764",
           "method": "fastest",
           "targetFormat": 1
         },
         {
           "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:563736-7f7997b1-0120-42c7-8e77-0f161c6266a0",
+          "identifier": "textureExportConfig:5851-b4447a0c-6ce5-44df-89db-ad94d1df9764",
           "method": "fastest",
           "targetFormat": 1
         },
         {
           "modelName": "textureExportConfig",
-          "identifier": "textureExportConfig:563738-7f7997b1-0120-42c7-8e77-0f161c6266a0",
+          "identifier": "textureExportConfig:5853-b4447a0c-6ce5-44df-89db-ad94d1df9764",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:5855-b4447a0c-6ce5-44df-89db-ad94d1df9764",
           "method": "fastest",
           "targetFormat": 1
         }
