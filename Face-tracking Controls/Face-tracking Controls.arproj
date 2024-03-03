@@ -3,7 +3,7 @@
   "name": "Effect",
   "identifier": "document:4-3d66f87b-da5e-47e3-ab6d-818cb6247d3b",
   "id": "23d66f87bda5e47e3ab6d818cb6247d3b",
-  "revision": "4039f37e4cebb76c4f019374e0c9f8df8eb2",
+  "revision": "2642433a4bbd00e750d46239f8dab78bddd175c",
   "version": {
     "dev": 0,
     "patch": 0,
@@ -25,7 +25,9 @@
       "identifier": "assets_config_model:213-3d66f87b-da5e-47e3-ab6d-818cb6247d3b",
       "categoriesOrder": [
         "materials",
-        "textures"
+        "textures",
+        "audio",
+        "patch_assets"
       ]
     }
   ],
@@ -74,6 +76,24 @@
         },
         {
           "sectionFileLocation": "materials/black.material"
+        },
+        {
+          "sectionFileLocation": "materials/rounded-mat-2.material"
+        },
+        {
+          "sectionFileLocation": "materials/op1-2.material"
+        },
+        {
+          "sectionFileLocation": "materials/op2-2.material"
+        },
+        {
+          "sectionFileLocation": "materials/op3-2.material"
+        },
+        {
+          "sectionFileLocation": "materials/op4-2.material"
+        },
+        {
+          "sectionFileLocation": "materials/op5-2.material"
         }
       ]
     },
@@ -205,9 +225,9 @@
       "effectDisablesMicrophone": false,
       "effectForceAsyncScripting": false,
       "effectForcesSynchronousScripting": false,
-      "effectHasAmbientAudio": false,
+      "effectHasAmbientAudio": true,
       "effectHasAudioGraphApi": false,
-      "effectHasTriggeredAudio": false,
+      "effectHasTriggeredAudio": true,
       "effectImageAntiAliasingEdgeSharpness": 0.5,
       "effectImageAntiAliasingEdgeThreshold": 0.5,
       "effectImageAntiAliasingTechnique": "fxaa",
@@ -224,7 +244,7 @@
       "effectUsesAnimationScriptingModule": false,
       "effectUsesAppLauncher": false,
       "effectUsesAssistant": false,
-      "effectUsesAudio": false,
+      "effectUsesAudio": true,
       "effectUsesAudioLegacyMicFork": false,
       "effectUsesAudioMixer": false,
       "effectUsesAudioSpatialEmitter": false,
@@ -446,8 +466,8 @@
       "effectUsesUnitsScriptingModule": false,
       "effectUsesVariadicMath": true,
       "effectUsesVertexTextureFetch": false,
-      "effectUsesVisualShaders": false,
-      "effectUsesVisualShadersSdf": false,
+      "effectUsesVisualShaders": true,
+      "effectUsesVisualShadersSdf": true,
       "effectUsesVoiceInteraction": false,
       "effectUsesWarpPostProcessor": false,
       "effectUsesWarpPreProcessor": false,
@@ -564,6 +584,64 @@
     {
       "modelName": "input_mappings_model",
       "identifier": "input_mappings_model:607-da15e6b8-493c-4f77-bb88-50a45dd7ff11"
+    },
+    {
+      "modelName": "patch_assets_model",
+      "identifier": "patch_assets_model:2545722-a4bbd00e-750d-4623-9f8d-ab78bddd175c",
+      "children": [
+        {
+          "modelName": "patch_data_base_model",
+          "name": "RoundedCordner-mat",
+          "identifier": "patch_data_base_model:2698502-a4bbd00e-750d-4623-9f8d-ab78bddd175c",
+          "assetDataHash": "14fa906338d0f1a85523b506b024372e",
+          "assetLocator": "patches/RoundedCordner-mat.arp",
+          "isExternalAsset": true
+        }
+      ]
+    },
+    {
+      "modelName": "asset_attributions_model",
+      "identifier": "asset_attributions_model:2545734-a4bbd00e-750d-4623-9f8d-ab78bddd175c",
+      "children": [
+        {
+          "modelName": "asset_attribution_model",
+          "identifier": "asset_attribution_model:2666677-a4bbd00e-750d-4623-9f8d-ab78bddd175c",
+          "assetAuthor": "Spark AR Assets",
+          "assetModelIdentifier": "sound:2666673-a4bbd00e-750d-4623-9f8d-ab78bddd175c",
+          "assetTitle": "Button 05",
+          "assetURLString": "",
+          "licenseModelIdentifier": "license_model:2666675-a4bbd00e-750d-4623-9f8d-ab78bddd175c"
+        }
+      ]
+    },
+    {
+      "modelName": "licenses_model",
+      "identifier": "licenses_model:2545736-a4bbd00e-750d-4623-9f8d-ab78bddd175c",
+      "children": [
+        {
+          "modelName": "license_model",
+          "name": "Sound Collection Terms",
+          "identifier": "license_model:2666675-a4bbd00e-750d-4623-9f8d-ab78bddd175c",
+          "linkURLString": "https://www.facebook.com/sound/collection/terms",
+          "slug": "License"
+        }
+      ]
+    },
+    {
+      "modelName": "sounds",
+      "identifier": "sounds:2545744-a4bbd00e-750d-4623-9f8d-ab78bddd175c",
+      "children": [
+        {
+          "modelName": "sound",
+          "name": "arl_sfx_Button_os_05.m4a",
+          "identifier": "sound:2666673-a4bbd00e-750d-4623-9f8d-ab78bddd175c",
+          "assetDataHash": "4e89dd79bda6f57d58230f2b35757957",
+          "assetLocator": "sounds/arl_sfx_Button_os_05.m4a",
+          "duration": 812.6984252929688,
+          "externalSourceLocator": "sparkarstudio://arlibrary/facebook/audio/462909704634826",
+          "isExternalAsset": true
+        }
+      ]
     }
   ]
 }
